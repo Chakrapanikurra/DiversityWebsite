@@ -60,22 +60,6 @@ figure,figcaption{
 
 }
 
-
-/* div#main-right>div{ */
-	/* display:inline; */
-	/* width: 100%; */
-	/* margin: 0 auto; */
-/* } */
-
-/* #main-right>div>figure{ */
-	/* float:left; */
-/* } */
-
-/* #main-right{ */
-	/* display: table; */
-	/* content:""; */
-	/* clear:both; */
-/* } */
 img{
 	width: 15rem;
 	height:20rem;
