@@ -1,10 +1,90 @@
-@charset "utf-8";
+@charset utf-8;
 
-html{
-  
-}
-
+/**Body positioning**/
 body{
-    display:flex;
-    
+	margin : 0px auto;
+	width: 80%;
+	
 }
+
+#main{
+	display: -webkit-flex; /* Safari */
+	display:flex;
+	width:100%;
+}
+
+/**positioning for main left**/
+#main-left{
+	-webkit-flex: 1;  /* Safari 6.1+ */
+   -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+	width:20%;
+
+}
+
+/** positionning for main right**/
+#main-right{
+	
+	
+	-webkit-flex: 1;  /* Safari 6.1+ */
+	-ms-flex: 1;  /* IE 10 */  
+	flex: 1;
+	width:100%;
+
+
+	
+	
+	
+}
+figure,figcaption{
+	display:inline;
+}
+
+/** cloth category style**/
+
+.cloth-category{
+	display: -webkit-flex; /* Safari */
+	display:flex;
+	width:100%;
+	margin: 10% 0;
+	
+}
+.cloth-category>figure{
+	-webkit-flex: 1;  /* Safari 6.1+ */
+   -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+	-webkit-flex-wrap: nowrap; 
+	flex-wrap:nowrap;
+	
+
+
+}
+
+
+/* div#main-right>div{ */
+	/* display:inline; */
+	/* width: 100%; */
+	/* margin: 0 auto; */
+/* } */
+
+/* #main-right>div>figure{ */
+	/* float:left; */
+/* } */
+
+/* #main-right{ */
+	/* display: table; */
+	/* content:""; */
+	/* clear:both; */
+/* } */
+img{
+	width: 15rem;
+	height:20rem;
+}
+
+/**postionning for figure and figcaption**/
+#main-right>figure{
+		flex-wrap:nowrap;
+
+}
+
+
