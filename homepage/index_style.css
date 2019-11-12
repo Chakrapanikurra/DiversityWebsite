@@ -1,0 +1,38 @@
+@charset utf-8;
+/**Html styling **/
+html{
+	background-color: white;
+}
+	
+/**Header Style**/
+header {
+    background:url(../Banner.jpg);
+    background-size: 100%;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+	
+  }
+  
+  header p:nth-of-child(2) {
+    font-size: 130px;
+    font-weight:800;
+    animation-delay: 1s;
+  }
+ 
+  
+  
+  /**style main left**/
+  article:nth-of-child(1){
+	  border-color:red;
+	  border-width:5px;
+	  border-style: inset;
+  }
+  /**style main left**/
+   article:nth-of-child(2){
+	  border-color:blue;
+	  border-width:5px;
+	  border-style: inset;
+  }
+  
+  
