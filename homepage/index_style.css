@@ -24,6 +24,9 @@ header {
   main>article{
 	  background-color:#748191;
   }
+  main article:nth-of-type(2){
+	   background-color:white;
+  }
   
   main figure:hover{
 	  
