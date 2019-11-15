@@ -2,15 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Rye&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Monoton|Rye&display=swap');
 
-/**Html styling **/
-html{
-	line-height:2px;
-}
 
-/*****************Body styling*******************/
-body{
-	 
-}
 	
 /**Header Style**/
 header {
@@ -66,11 +58,26 @@ header {
 	  text-decoration: none;
 	  color:white;
   }
+  
+  /*************** CTA styling ****************/
   main article aside h1{
 	font-size: xx-large;
 	background-color:grey;
 }
 
+
+main article aside{
+	border-width: 10px;
+	border-style: groove;
+	border-color: grey;
+}
+
+input[type='email']:invalid{
+	background-color:hsl(0, 100%, 73%);
+}
+input[type='email']:valid{
+	background-color:hsl(163, 100%, 97%);
+}
   /************footer styling*************/
   footer{
 	 
