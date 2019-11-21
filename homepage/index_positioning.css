@@ -46,17 +46,18 @@ main article aside{
 
 
 /**Positioning of the sections representing the cloth categories**/
-article section{
+article section div{
 	display: flex;
 	flex-wrap: wrap;
 	width:100%;
 	margin-top:20px;
 }
 
-section figure{
+section div figure{
 	flex:1;
 	width:100%;
 }
+
 
 
  img[alt='Diversity Logo']{
