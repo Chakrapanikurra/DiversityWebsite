@@ -1,20 +1,35 @@
 @charset utf-8;
 
-/********Html positioning********/
 
+
+
+/*****************************Default Positioning*********/
+
+/********Html positioning********/
+body{
+	display:flex;
+	flex-direction:column;
+}
 
 /**Header positionning**/
 
+
 header{
 	width:100%;
-	height:500px;
+	height:700px;
 }
 
 
-header img{
+
+
+header div:nth-of-type(1) img{
 	width:100%;
 	height:100%;
 }
+header div:nth-of-type(2) {
+	display:none;
+}
+
 header p {
 	position:absolute;
 	bottom:50%;
@@ -23,6 +38,8 @@ header p {
 header p:nth-of-type(2) {
 	bottom:27%;
 }
+
+
 /**Positioning of the direct children inside the main  tag**/
 main{
 	width:100%;
@@ -34,6 +51,7 @@ main{
 
 main article:last-child{
 	flex:3;
+	flex-wrap:wrap;
 	width:100%;
 }
 
@@ -65,15 +83,15 @@ section div figure{
 		width: 200px;
 	
 }
-/**figure styling**/
+/**figure postitioning**/
 figure{
 	margin:1%;
 	text-align:center;
 }
 
 figure img{
-	width:90%;
-	height:300px;
+	width:100%;
+	height:100%;
 	
 }
 
@@ -109,3 +127,43 @@ margin: 1% 0;}
 input[type='email']{
 	width:50%;
 }
+
+@media screen and (max-width:700px){
+	header{
+		
+		display:flex;
+		flex-direction:column;
+	}
+	header div:nth-of-type(1){
+		 flex:2;
+	 }
+	header div:nth-of-type(2) {
+		display:block;
+		visibility:visible;
+		background-color:blue;
+		display:flex;
+		
+	}
+	header nav {
+		flex:2;
+		
+	}
+	header ul{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:nowrap;
+	}
+	header nav li{
+		width: 33.33%;
+		
+	}	
+
+
+	
+	/*******article navigation list********/
+	 article:nth-of-type(1){
+		display:none;
+	}
+}
+
+

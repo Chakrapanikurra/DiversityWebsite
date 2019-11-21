@@ -52,3 +52,25 @@ header {
 	font-size: 2em;
 	font-family:  Rye,cursive;
 }
+
+
+
+
+
+@media screen and (max-width:700px){
+	header{
+		font-size: 1rem;
+		font-weight:200;
+		color: #fff;
+		text-align: center;
+	}
+	ul li{
+		margin: 0 1%;
+	}
+	
+	
+	/**********article elemnts styling*********/
+	 main figure:hover{
+		 transform:scale(1.1);
+	 }
+}

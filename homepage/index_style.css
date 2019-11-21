@@ -32,7 +32,6 @@ header {
 	  
 	  filter:brightness(100%);
 	  transform: scale(1.2);
-	  animation-delay: 4s;
 
   }
   main figure{
@@ -45,11 +44,14 @@ header {
 	  font-family: 'Bungee Inline',system-ui;
 	  font-size:x-large;
 	  font-weight:900; 
-	  margin:2% 0.8%;
+	  margin: 0 0.8%;
 	  background-color: #FEC180;
 	  height:30px;
 	  text-shadow: 2px 0 #7D5429;
 	  text-shadow: -2px 0 #7D5429;
+  }
+  h1#womenCat{
+	  margin-top: 5%; 
   }
   ul li{
 	  margin:10%;
@@ -91,4 +93,22 @@ input[type='email']:valid{
   footer h1{
 	font-size: 2em;
 	font-family:  Rye,cursive;
+}
+
+@media screen and (max-width:700px){
+	header{
+		font-size: 1rem;
+		font-weight:200;
+		color: #fff;
+		text-align: center;
+	}
+	ul li{
+		margin: 0 1%;
+	}
+	
+	
+	/**********article elemnts styling*********/
+	 main figure:hover{
+		 transform:scale(1.1);
+	 }
 }
