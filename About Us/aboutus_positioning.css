@@ -101,7 +101,7 @@ form{
 }
 form *{
 		width:80%;
-		margin: 0 10%;
+		margin: 1% 10%;
 	}
 	form input:last-child{
 		margin-bottom:2%;
