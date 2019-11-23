@@ -136,6 +136,8 @@ input[type='email']{
 		visibility:visible;
 		background-color:blue;
 		display:flex;
+		padding: 2% 0;
+
 		
 	}
 	header nav {
