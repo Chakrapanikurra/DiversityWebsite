@@ -109,7 +109,7 @@ input[type='email']:valid{
 	header{
 		font-size: 1rem;
 		font-weight:200;
-		color: #fff;
+		color:#fff;
 		text-align: center;
 	}
 	header div:nth-of-type(2) {
